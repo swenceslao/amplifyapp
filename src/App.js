@@ -70,7 +70,7 @@ function App() {
         type="file"
         onChange={onChange}
       />
-      <button onClick={createNote}>Create Note</button>
+      <button onClick={createNote}>Create Note Here</button>
       <div style={{marginBottom: 30}}>
         {
           notes.map(note => (
